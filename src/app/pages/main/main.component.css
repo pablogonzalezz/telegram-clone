@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.drawer {
+    width: 250px;
+}
+
+.main-div {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-div {
+    width: 100%;
+    background-color: #419fd9;
+}
+
+.lower-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div {
+    display: flex;
+    padding: 15px;
+}
+
+.user-img {
+    max-width: 50px;
+    border-radius: 50px;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.user-name {
+    color: white;
+    font-weight: bold;
+}
+
+.user-phone {
+    color: white;
+}
+
+.drawer-button {
+    appearance: none;
+    border: none;
+    display: flex;
+    background: none;
+    align-items: center;
+    margin: 10px;
+}
+
+.drawer-button:hover {
+    background-color: lightgray;
+}
+
+.button-icon {
+    color: gray;
+}
+
+.button-text {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+}
+
+.about-title {
+    font-weight: bold;
+    margin-left: 20px;
+    color: gray;
+}
+
+.about-description {
+    margin-left: 20px;
+    color: gray;
+}
+
+.toggle {
+    position: absolute;
+    right: 25px;
+}
+
+:host ::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+    background-color: #419fd9;
+}
+
+:host ::ng-deep  .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+    background-color: #419fd9;
+}

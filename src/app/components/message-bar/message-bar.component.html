@@ -1,0 +1,20 @@
+
+<div class="container" *ngIf="selectedConversationId != 0">
+    <div class="search-div">
+        <button class="bar-button">
+            <mat-icon class="bar-icon">attach_file</mat-icon>
+        </button>    
+    </div>
+
+    <input #input class="message-input" placeholder="Write a message..." (keyup.enter)="saveNewMessage(input.value, 'receiver')"> 
+
+    <div class="right-div">
+        <button class="bar-button">
+            <mat-icon class="bar-icon">emoji_emotions</mat-icon>
+        </button>    
+
+        <button class="bar-button">
+            <mat-icon class="bar-icon">mic</mat-icon>
+        </button>    
+    </div>
+</div>

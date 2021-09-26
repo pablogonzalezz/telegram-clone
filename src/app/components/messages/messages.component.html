@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="background-image">
+        <div *ngIf="selectedConversationId == 0"  class="default-screen">
+            <div class="default-text-div">
+                <span class="default-text">Select a chat to start messaging</span>
+            </div>
+        </div>
+
+        <div *ngIf="selectedConversationId != 0" class="messages-list"> 
+            <div *ngFor="for let message of conversations[selectedConversationId - 1].messages" >
+                <div [class]="message.sender == 'sender' ? 'message sender bubble-arrow-sender' : 'message receiver bubble-arrow-receiver'">
+                    <div class="message-text" [innerHtml]="message.message | safe: 'html'"></div>
+                    <div [class]="message.sender == 'sender' ? 'message-time-sender' : 'message-time-receiver'">{{message.time}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name": "Pablo Gonzalez",
+        "status": "Online",
+        "image": "assets/me.jpeg",
+        "messages": [
+            {
+                "sender": "sender", "time": "4:27 PM", "message": "Hi there 😀"
+            },
+            {
+                "sender": "sender", "time": "4:27 PM", "message": "If you enjoyed my work, follow me on Github"
+            },
+            {
+                "sender": "sender", "time": "4:27 PM", "message": "<a target='_blank' href='https://github.com/pablogonzalezz'>https://github.com/pablogonzalezz</a>"
+            },
+            {
+                "sender": "sender", "time": "4:27 PM", "message": "Thanks! ✌️✌️"
+            }
+        ]
+    },
+
+    {
+        "id":2,
+        "name": "John Doe",
+        "status": "Online",
+        "image": "assets/default-user-image.png",
+        "messages": [
+            {
+                "sender": "sender", "time": "", "message": "Hi, i am john doe! :)"
+            }
+        ]
+    }
+]

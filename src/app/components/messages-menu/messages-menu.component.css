@@ -1,0 +1,80 @@
+.container {
+    width: 300px;
+    border: 1px solid gainsboro;
+    height: 100%;
+    overflow: auto;
+}
+
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button {
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin: 10px;
+}
+
+.menu-icon {
+    color: gray;
+}
+
+.menu-input {
+    border: none;
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 3px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.conversation-list {
+    margin: 10px;
+}
+
+.conversation {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.conversation:hover {
+    background-color: lightgray;
+}
+
+.conversation-image-div {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+
+.conversation-image {
+    max-width: 50px;
+    border-radius: 50px;
+}
+
+.conversation-text {
+    width: 100%;
+}
+
+.conversation-title {
+    font-weight: bold;
+}
+
+.conversation-preview {
+    color: gray;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+}
+

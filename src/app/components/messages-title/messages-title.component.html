@@ -1,0 +1,27 @@
+<div class="container" *ngIf="selectedConversationId != 0">
+    <div class="left-div">
+        <div class="img-div"> 
+            <img class="image" [src]="conversations[selectedConversationId - 1].image">
+        </div>
+
+        <div class="name-div">
+            <div class="name">{{conversations[selectedConversationId - 1].name }}</div>
+            <div class="status">{{conversations[selectedConversationId - 1].status }}</div>
+        </div>    
+    </div>
+    
+    <div class="right-div">
+        <button class="bar-button">
+            <mat-icon class="bar-icon">search</mat-icon>
+        </button>    
+
+        <button class="bar-button">
+            <mat-icon class="bar-icon">phone</mat-icon>
+        </button>   
+        
+        <button class="bar-button">
+            <mat-icon class="bar-icon">more_vert</mat-icon>
+        </button>
+
+    </div>
+</div>

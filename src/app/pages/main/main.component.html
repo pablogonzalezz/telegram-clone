@@ -1,0 +1,60 @@
+<mat-drawer-container class="container">
+    <mat-drawer #drawer class="drawer" mode="over" opened="opened">
+        <div class="upper-div">
+            <div class="img-div">
+                <img class="user-img" src="assets/default-user-image.png"> 
+            </div>
+            <div class="name-div">
+                <span class="user-name">User name goes here</span>
+                <span class="user-phone">+1 202 555 0102</span>
+            </div>
+        </div>
+        <div class="lower-div">
+            <button class="drawer-button">
+                <mat-icon class="button-icon">people</mat-icon>
+                <span class="button-text">New Group</span>
+            </button>
+
+            <button class="drawer-button">
+                <mat-icon class="button-icon">campaign</mat-icon>
+                <span class="button-text">New Channel</span>
+            </button>
+
+            <button class="drawer-button">
+                <mat-icon class="button-icon">person</mat-icon>
+                <span class="button-text">Contacts</span>
+            </button>
+
+            <button class="drawer-button">
+                <mat-icon class="button-icon">phone</mat-icon>
+                <span class="button-text">Calls</span>
+            </button>
+
+            <button class="drawer-button">
+                <mat-icon class="button-icon">settings</mat-icon>
+                <span class="button-text">Settings</span>
+            </button>
+
+            <button class="drawer-button">
+                <mat-icon class="button-icon">dark_mode</mat-icon>
+                <span class="button-text">Night Mode</span>
+                <mat-slide-toggle class="toggle"></mat-slide-toggle>
+            </button>
+
+            <div class="about">
+                <span class="about-title">Telegram Clone</span>
+                <span class="about-description">Version 1.0.0</span>
+            </div>
+        </div>
+    </mat-drawer>
+
+    <div class="main-div">
+        <app-messages-menu (conversationClick)="changeConversation($event)" (menuButtonClick)="drawer.open()"></app-messages-menu>
+        
+        <div class="right-div">
+            <app-messages-title [selectedConversationId]="currentConversationId"></app-messages-title>
+            <app-messages [selectedConversationId]="currentConversationId"></app-messages> 
+            <app-message-bar [selectedConversationId]="currentConversationId"></app-message-bar>   
+        </div>
+    </div>
+</mat-drawer-container>

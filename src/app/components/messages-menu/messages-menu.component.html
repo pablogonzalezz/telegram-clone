@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="search-div">
+        <button class="menu-button" (click)="menuButtonClick.emit()">
+            <mat-icon class="menu-icon">menu</mat-icon>
+        </button>
+        <input class="menu-input"> 
+    </div>
+
+    <div class="conversation-list" *ngFor="let conversation of conversations">
+        <div class="conversation" [id]="conversation.id" (click)="conversationClick.emit(conversation.id)">
+            <div class="conversation-image-div">
+                <img class="conversation-image" [src]="conversation.image">
+            </div>
+            <div class="conversation-text">
+                <div class="conversation-title">{{ conversation.name }}</div>
+                <div class="conversation-preview" [innerHtml]="getLatestMessage(conversation.id) | safe: 'html'"></div>
+            </div>
+        </div>
+    </div>
+</div>
