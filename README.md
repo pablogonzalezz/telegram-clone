@@ -19,7 +19,7 @@ This project was generated using Electron + Angular frameworks.
 npm install
 
 # Run development server
-npm run dev
+npm run start:electron
 ```
 
 ## 🤝 Contribution
