@@ -1,4 +1,13 @@
-# Telegram Clone
+<h1 align="center">Welcome to Telegram Clone 👋</h1>
+<p>
+  <a href="https://github.com/avneesh0612/audible-clone/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://linkedin.com/in/pablogonzalezzz" target="_blank">
+    <img alt="Linkedin: pablogonzalezzz" src="https://img.shields.io/badge/Linkedin-Follow Me-blue"/>
+  </a>
+</p>
+
 ![](telegram-clone.gif)
 
 This project was generated using Electron + Angular frameworks.
@@ -25,7 +34,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Contribution
+## 🤝 Contribution
 If you want to contribute to this project, see the [CONTRIBUTION.md](CONTRIBUTION.md) file.
 
 ### Hacktoberfest 2021
@@ -46,3 +55,8 @@ Want to join [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) and h
 }
 ```
 * And that's it 😁 Your message should appear in the app messages.
+
+## 📝 License
+
+Copyright © 2021 [Pablo Gonzalez](https://github.com/pablogonzalezz).<br />
+This project is [MIT](https://github.com/pablogonzalezz/telegram-clone/blob/main/LICENSE) licensed.
