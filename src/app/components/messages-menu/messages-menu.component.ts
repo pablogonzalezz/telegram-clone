@@ -29,4 +29,25 @@ export class MessagesMenuComponent implements OnInit {
     return latestMessage?.message;
   }
 
+  // Searches for Username and messages texts
+  filterMessages(event: any) {
+    let value = event.target.value
+
+    this.conversations.forEach(cv => {
+      if(cv.name.toUpperCase().includes(value.toUpperCase())) {
+        document.getElementById(String(cv.id))?.setAttribute('style','display: flex')
+      } else {
+        if(cv.messages) {
+          for(let msg of cv.messages) {
+            if(msg.message.toUpperCase().includes(value.toUpperCase())) {
+              document.getElementById(String(cv.id))?.setAttribute('style','display: flex')
+              break;
+            } else {
+              document.getElementById(String(cv.id))?.setAttribute('style','display: none')
+            } 
+          }
+        }
+      }
+    })
+  }
 }
