@@ -2,7 +2,6 @@
     width: 300px;
     border: 1px solid gainsboro;
     height: 100%;
-    overflow: auto;
 }
 
 .search-div {
@@ -30,6 +29,11 @@
     border-radius: 3px;
     margin-right: 10px;
     height: 30px;
+}
+
+.conversation-list-div {
+    height: calc(100% - 50px);
+    overflow: auto;
 }
 
 .conversation-list {
