@@ -14,7 +14,7 @@ if you think that you can add a new feature or want to fix a bug, we invite you 
 
 4. Add a reference(remote) to the original repository:
 
-`git remote add upstream https://github.com/laisfrigerio/telegram-clone.git`
+`git remote add upstream https://github.com/pablogonzalezz/telegram-clone.git`
 
 5. Check the remotes for this repository:
 
