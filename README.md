@@ -27,3 +27,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Contribution
 If you want to contribute to this project, see the [CONTRIBUTION.md](CONTRIBUTION.md) file.
+
+### Hacktoberfest 2021
+Want to join [Hacktoberfest 2021](https://hacktoberfest.digitalocean.com/) and have your PR approved on this repo? It's simple!
+* Go to [conversations.json](src/assets/conversations.json) file
+* Add a conversation with your name and photo following the format below
+```JSON
+ {
+  "id":2,
+  "name": "John Doe",
+  "status": "Online",
+  "image": "assets/default-user-image.png",
+  "messages": [
+      {
+          "sender": "sender", "time": "14:27", "message": "Hi, i am john doe! :)"
+      }
+  ]
+}
+```
+* And that's it 😁 Your message should appear in the app messages.
