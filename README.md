@@ -1,5 +1,8 @@
 <h1 align="center">Welcome to Telegram Clone 👋</h1>
 <p>
+  <a href="https://github.com/pablogonzalezz/telegram-clone/actions?query=workflow%3ABuild">
+    <img alt="Build" src="https://img.shields.io/github/workflow/status/pablogonzalezz/telegram-clone/Build?logo=github">
+  </a>
   <a href="https://github.com/avneesh0612/audible-clone/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
