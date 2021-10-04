@@ -45,5 +45,23 @@
                 "sender": "sender", "time": "", "message": "I wonder who he ran over then 😨"
             }
         ]
+    },
+
+    {
+        "id":4,
+        "name": "Michael Scott",
+        "status": "Online",
+        "image": "assets/michael-scott.png",
+        "messages": [
+            {
+                "sender": "sender", "time": "", "message": "I"
+            },
+            {
+                "sender": "sender", "time": "", "message": "DECLARE"
+            },
+            {
+                "sender": "sender", "time": "", "message": "BANKRUPTCY 😱"
+            }
+        ]
     }
 ]
