@@ -30,5 +30,20 @@
                 "sender": "sender", "time": "", "message": "Hi, i am john doe! :)"
             }
         ]
+    },
+
+    {
+        "id":3,
+        "name": "Jim Halpert",
+        "status": "Online",
+        "image": "assets/jim-halpert.jpg",
+        "messages": [
+            {
+                "sender": "sender", "time": "", "message": "One day Michael came in and complained about a speed bump on the highway"
+            },
+            {
+                "sender": "sender", "time": "", "message": "I wonder who he ran over then 😨"
+            }
+        ]
     }
 ]
