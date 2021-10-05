@@ -29,6 +29,13 @@ export class MessagesMenuComponent implements OnInit {
     return latestMessage?.message;
   }
 
+  getLatestMessageTime(conversationId: number) {
+    let conversation = this.conversations.find(cv => cv.id == conversationId);
+    let latestMessage = conversation?.messages[conversation.messages.length-1];
+
+    return latestMessage?.time;
+  }
+
   // Searches for Username and messages texts
   filterMessages(event: any) {
     let value = event.target.value
