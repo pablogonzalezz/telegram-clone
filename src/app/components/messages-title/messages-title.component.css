@@ -38,6 +38,7 @@
     width: 40px;
     border-radius: 50px;
     height: 40px;
+    object-fit: cover;
 }
 
 .name {

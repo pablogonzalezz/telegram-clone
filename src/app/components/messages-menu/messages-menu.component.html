@@ -15,6 +15,9 @@
                     <div class="conversation-title">{{ conversation.name }}</div>
                     <div class="conversation-preview" [innerHtml]="getLatestMessage(conversation.id) | safe: 'html'"></div>
                 </div>
+                <div class="conversation-time">
+                    <div class="time menu-icon" [innerHtml]="getLatestMessageTime(conversation.id) | safe: 'html'"></div>
+                </div>
             </div>
         </div>
     </div>
